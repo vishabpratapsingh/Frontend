@@ -1,0 +1,16 @@
+<html>
+
+<head> JAVASCRIPT EVENTS</head>
+<h2>Enter Something</h2>
+
+<body>
+
+    <input type="text" id="input1" onfocus="A()" />
+    <script>
+        function A() {
+            document.getElementById("input1").style.backgroundColor = "aqua";
+        }
+    </script>
+</body>
+
+</html>
