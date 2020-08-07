@@ -1,0 +1,16 @@
+<html>
+
+<head>JAVASCRIPT EVENTS</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        function A() {
+            document.write("my name is vishab pratap singh");
+        }
+    </script>
+    <form>
+        <input type="button" value="pressit" onclick="A()" />
+    </form>
+</body>
+
+</html>
