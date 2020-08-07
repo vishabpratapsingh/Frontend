@@ -1,0 +1,12 @@
+<html>
+
+<head>JAVASCRIPT EVENTS</head>
+</br>
+
+<body onload="window.alert('page loaded successfully');">
+    <script>
+        document.write("the page is loaded succesfully");
+    </script>
+</body>
+
+</html>
