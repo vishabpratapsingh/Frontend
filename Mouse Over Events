@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <h1>vishab pratap singh</h1>
+</head>
+
+<body>
+    <script langauge="javascript" type="text/javascript">
+        function A() {
+            alert("namstey");
+        }
+    </script>
+    <form>
+        <input type="button" value=" Dare to touch me" onmouseover="A()" />
+    </form>
+</body>
+
+</html>
