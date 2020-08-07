@@ -1,0 +1,20 @@
+<script>
+    function A() {
+        var name = document.myform.name.value;
+        var password = document.myform.password.value;
+        if (name == null || name == "") {
+            alert("name cannot be blank");
+            return false;
+        } else if (password.length < 6) {
+            alert("password should atleast 6 characters long.");
+            return false;
+        }
+
+
+    }
+</script>
+<form name="myform" method="post" action="abc.jsp" onsubmit=" return A()">
+    NAME:<input type="text" name="name"><br/> PASSWORD:
+    <input type="password" name="password"><br/>
+    <input type="submit" value="register">
+</form>
